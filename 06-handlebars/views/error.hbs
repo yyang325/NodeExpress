@@ -1,0 +1,12 @@
+<h1>{{ message }}</h1>
+<p>This error page is templated by handlebars</p>
+
+{{# if condition }}
+	Condition is met
+{{ else }}
+	Condition is not met
+{{/if}}
+
+{{# each anyArray }}
+	{{ this }}
+{{/each}}
